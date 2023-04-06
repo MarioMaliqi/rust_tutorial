@@ -2,14 +2,17 @@ fn main() {
     println!("Hello, world!");
 }
 
-// run "cargo new" to initialize a rust project
-// you can run "cargo new --vcs=none" to init without a version control system
-
 // all source files are located in the "src" folder
 // everything else is one level above
 
 // cargo specifics:
+
+// run "cargo new" to initialize a rust project
+// you can run "cargo new --vcs=none" to init without a version control system
+
 // cargo = cross-system dependency manager and build system for rust
+// a build system is a collection of software tools that is used
+// to facilitate the build process
 // its basically one tool that handles ur project (cool)
 
 // "cargo build" compiles a development build of the project
